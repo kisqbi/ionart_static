@@ -1,0 +1,198 @@
+
+/*
+@import url('https://fonts.googleapis.com/css?family=Exo:600,800|Raleway:300,500,800');
+*/
+
+
+
+body {
+
+
+	font-family: 'Exo', sans-serif;
+	background-color: #111111;
+}
+
+ 
+ 	figure {
+      -webkit-margin-before: 0;
+    	-webkit-margin-after: 0;
+    	-webkit-margin-start: 0;
+    	-webkit-margin-end: 0;
+    /*  width: 100vw;*/
+    }
+    picture {
+      height: 0 !important;
+      line-height: 0;
+	  
+	  
+    }
+	img {display:block}
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.page-footer{
+
+	background-color: #111111;
+
+}
+.uppercase {
+	text-transform: uppercase;
+
+}
+.w-100 {
+	width: 100%;
+
+}
+.ma-a {
+	margin:auto;
+}
+.ma-0 {
+	margin:0;
+}
+.pa-0 {
+	padding:0;
+}
+.mv-5 {
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.pa-5 {
+	padding:5px;
+}
+
+
+#social-container {
+	margin-left: 50px;
+}
+
+#title-container {
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+#social-container-footer {
+
+	font-size: 32px;
+
+}
+
+
+.image-item {
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.grid-item .caption {
+
+
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.66);
+
+
+}
+
+.grid-item .caption p {
+
+	margin:20px;
+}
+
+
+.sizer {
+	width: 0;
+}
+
+.col.grid-item {
+	padding: 0;
+	margin: 0;
+}
+.col.m3.grid-item {
+	padding: 0;
+	margin: 0;
+}
+.grid-menu-item {
+	display: inline;
+}
+
+.grid-menu-item.selected {
+	color: white!important;
+}
+
+
+
+.youtube-player {
+	position: relative;
+	padding-bottom: 56.23%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+	background: #000;
+	margin: 5px;
+}
+
+.youtube-player iframe,
+.youtube-player object,
+.youtube-player embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	background: transparent;
+}
+
+.youtube-player img {
+	bottom: 0;
+	display: block;
+	left: 0;
+	margin: auto;
+	max-width: 100%;
+	width: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border: none;
+	height: auto;
+	cursor: pointer;
+	-webkit-transition: .4s all;
+	-moz-transition: .4s all;
+	transition: .4s all;
+}
+
+.youtube-player img:hover {
+	-webkit-filter: brightness(75%);
+}
+
+.youtube-player .play {
+	height: 72px;
+	width: 72px;
+	left: 50%;
+	top: 50%;
+	margin-left: -36px;
+	margin-top: -36px;
+	position: absolute;
+	background: url("//i.imgur.com/TxzC70f.png") no-repeat;
+	cursor: pointer;
+}
